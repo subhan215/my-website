@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(238, 195, 87);
+    width: 100%;
+    height: 84px;
+}
+.headh1{
+    width: 30%;
+    text-align: center;
+    font-family: sans-serif, monospace, serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+.headlinks{
+    width: 70%;
+    margin-top: 5px;
+    background-color: black;
+    color: rgb(238, 195, 87);
+    font-weight: 600;
+    font-family: sans-serif, monospace, serif;
+    
+}
+.headlinks ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 78px;
+    
+    
+    
+}
+ul li{
+    list-style-type: none;
+    padding: 15px 25px;
+    
+
+}
+.mainimg{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("images/background-banner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.mainimgh{
+  
+    font-family: sans-serif, monospace, serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+ 
+   
+  
+   
+    
+
+}
+
+.mainimg button{
+   background-color: transparent;
+   border: 2px solid rgb(238, 195, 87);
+   color: rgb(238, 195, 87);
+   font-size: 22px;
+   padding: 15px;
+   margin: 0px 10px;
+   border-radius: 10px;
+   cursor: pointer;
+   
+}
+.mit{
+    display: flex;
+   
+    margin-top: 5%;
+    
+}
+@media only screen and (max-width:675px){
+    .header{
+        display: block;
+        width: 100%;
+        height: 15vh;
+       
+    }
+    .headh1{
+        margin: 0 auto;
+     
+    }
+    .headlinks {
+        width: 100%;
+        margin-top: 0;
+    }
+    .mainimg{
+        margin-top: 10vh;
+    }
+    
+}
+@media only screen and (max-width:470px) {
+   .headlinks ul{
+       display: block;
+       height: 35vh;
+       text-align: center;
+    }
+    .mainimg{
+        margin-top: 34vh;
+    } 
+   
+}
